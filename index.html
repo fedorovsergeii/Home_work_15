@@ -33,11 +33,11 @@
             </button>
         </div>
     </div>
-    <div class="bg-bg-header flex flex-col justify-end items-center bg-cover w-full min-h-96 h-[50vw]">
-            <div class="flex flex-col items-center justify-end h-52 w-5/12 py-2.5">
+    <div class="bg-bg-header flex flex-col justify-end items-center bg-cover w-full h-[50vw]">
+            <div class="flex flex-col items-center justify-end py-2.5 sm:w-2/3  md:w-5/12">
                 <p class="text-center text-gray-400 text-sm">Photographer & Filmmaker</p>
-                <p class="text-white text-5xl text-center pb-5">Aperture Studios</p>
-                <p class="text-center text-gray-400 text-sm ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p class="text-white text-center pb-5 sm:text-3xl md:text-5xl">Aperture Studios</p>
+                <p class="text-center text-gray-400 sm:text-xs md:text-sm ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Suspendisse varius enim in eros
                     elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo
                     diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut
@@ -55,13 +55,13 @@
     </header>
 
     <main class="container mx-auto">
-    <div class="card  pt-28 px-28 pb-24 flex flex-col items-center">
+    <div class="pt-28 px-28 pb-24 flex flex-col items-center">
         <div class="text-center">
             <p class="text-white text-4xl pb-3.5">What we do.</p>
             <p class="text-gray-500 text-2xl">The areas that we're specialized in.</p>
         </div>
-        <div class="flex flex-row wrap pt-2">
-            <div class="bg-note w-2/4 bg-cover text-sm h-[40vw] m-2 flex flex-col justify-end p-8">
+        <div class="flex lg:flex-row sm:flex-col wrap pt-2">
+            <div class="bg-note card">
                 <p class="text-white uppercase tracking-widest">Product Photography</p>
                 <p class="text-gray-500 py-3">Cras commodo consequat orci, in convallis risus egestas non.
                     Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.
@@ -71,7 +71,7 @@
                     Read more
                 </button>
             </div>
-            <div class="bg-house w-2/4 bg-cover text-sm h-[40vw] m-2 flex flex-col justify-end p-8">
+            <div class="bg-house card">
                 <p class="text-white uppercase tracking-widest">Architecture Photography</p>
                 <p class="text-gray-500 py-3">
                     Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra,
@@ -84,8 +84,8 @@
                 </button>
             </div>
         </div>
-        <div class="flex flex-row wrap ">
-            <div class="bg-forest w-2/4 bg-cover text-sm h-[40vw] m-2 flex flex-col justify-end p-8">
+        <div class="flex lg:flex-row sm:flex-col wrap ">
+            <div class="bg-forest card">
                 <p class="text-white uppercase tracking-widest">Drone Photography</p>
                 <p class="text-gray-500 py-3">
                     Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a
@@ -97,7 +97,7 @@
                     Read more
                 </button>
             </div>
-            <div class="bg-deer w-2/4 bg-cover text-sm h-[40vw] m-2 flex flex-col justify-end p-8">
+            <div class="bg-deer card">
                 <p class="text-white uppercase tracking-widest">Wildlife Photography</p>
                 <p class="text-gray-500 py-3">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et
@@ -129,8 +129,8 @@
         </div>
     </div>
 
-    <div  class="flex">
-        <div class="bg-black w-2/4 bg-cover text-sm px-14 py-28">
+    <div  class="flex sm:flex-col sm:pb-5 lg:flex-row">
+        <div class="bg-black sm:mx-auto sm:w-3/4 lg:w-2/4 bg-cover text-sm px-14 py-28">
            <div class="px-10 pt-14 pb-10">
                <p class="text-gray-500 text-sm uppercase tracking-widest">The Gear cage</p>
                <p class="text-white text-2xl tracking-wide">The tools that we use.</p>
@@ -144,7 +144,7 @@
                </button>
            </div>
         </div>
-        <div class="bg-photo w-2/4 bg-cover  flex flex-col justify-end p-10 ">
+        <div class="bg-photo sm:mx-auto sm:w-3/4 sm:h-[40vw] lg:w-2/4 bg-cover  flex flex-col justify-end p-10 ">
                 <div class="w-full flex justify-end items-center gap-4 text-white text-sm pr-10">
                     <div class="flex gap-2"> <img src="images/IMAGE_time2.svg" alt="time" class="h-4 w-4">0,8"</div>
                     <div class="flex gap-2"> <img src="images/IMAGE_focus.svg" alt="time" class="h-4 w-4">f/5,6</div>
@@ -176,7 +176,7 @@
             <p class="text-white text-4xl tracking-widest pb-3.5" >Past clients</p>
             <p class="text-gray-500 text-2xl">Trusted by your favourite companies</p>
         </div>
-        <div class="flex gap-28 px-12 py-16">
+        <div class="flex sm:flex-wrap lg:flex-nowrap justify-between content-center gap-10 px-12 py-16">
             <img src="images/company_one.svg" alt="time" class="w-32">
             <img src="images/company_two.png" alt="time" class="w-32">
             <img src="images/company_three.svg" alt="time" class="w-32">
@@ -219,12 +219,12 @@
     </main>
 
     <footer class="container mx-auto bg-black px-32 py-24">
-        <div class="flex justify-between pr-24" >
+        <div class="flex sm:flex-col sm:gap-5 lg:flex-row justify-between sm:pr-10 lg:pr-24" >
             <div>
                 <img src="images/Combined-Shape@2x.png" alt="logo" class="logo h-8 w-32 rounded-full">
-                <p class="text-gray-500 text-sm pt-5">Photographers & videographers capturing the world around us.</p>
+                <p class="text-gray-500 text-sm pt-5 pr-5">Photographers & videographers capturing the world around us.</p>
             </div>
-            <div class="flex gap-14">
+            <div class="flex gap-14 sm">
                 <div>
                     <p class="text-gray-500 text-sm tracking-widest uppercase">Business areas</p>
                     <ul class="flex flex-col gap-2.5 pt-2.5 text-white text-sm">
@@ -251,12 +251,12 @@
 
         <div>
             <hr class="border-t-2 border-gray-300 my-4 text-sm">
-            <div class="flex justify-between items-center">
-                <div class="py-5 w-3/5">
+            <div class="flex sm:flex-col lg:flex-row justify-between items-center">
+                <div class="py-5 sm:w-full lg:w-3/5">
                     <p class="text-white  uppercase tracking-widest">Subscribe to our newsletter</p>
                     <p class="text-gray-500 pt-5">Read about all the things we do.</p>
                 </div>
-                <div class="w-2/5">
+                <div class="sm:w-full lg:w-2/5">
                     <button class="w-full h-12 bg-white rounded-lg grid justify-items-end align-center">
                         <img src="images/Rectangle.svg" alt="frame" class="h-8 w-16 m-2">
                     </button>
@@ -266,7 +266,7 @@
         </div>
 
         <div class="flex justify-between items-center pt-14"  >
-            <p class="text-gray-500 text-sm">
+            <p class="text-gray-500 text-sm pr-5">
                 © Aperture Photography, Inc. All rights reserved.
             </p>
             <img src="images/social.png" alt="social" class="w">
