@@ -9,5 +9,5 @@
 }
 
 .card {
-   @apply lg:w-2/4 sm:w-full bg-cover text-sm sm:h-[70vw] md:h-[50vw] lg:h-[40vw]  m-2 flex flex-col justify-end p-8
+   @apply mobile:w-full md:w-full lg:w-2/4 bg-cover text-sm mobile:pt-64 md:pt-96 lg:pt-96  m-2 flex flex-col justify-end p-8
 }
